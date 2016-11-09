@@ -1,0 +1,329 @@
+
+
+/* ===== Typography ===== */
+
+.default-font{
+   font-family: "Josefin Sans";
+   font-size: 18px;
+   color: #5f5b4f;
+   line-height: 20px;
+}
+
+.font-2{
+	font-family: "Josefin Sans";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #373737;
+  font-family: 'Oswald';
+}
+
+h1, h2, h5{
+  font-weight: bold;
+}
+
+h1{
+  font-size: 40px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+h3{
+  font-size: 31px;
+}
+
+h4{
+  font-size: 28px;
+}
+
+h5{
+  font-size: 24px;
+  line-height: 29px;
+}
+
+h6{
+  font-size: 20px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+/* ===== Backgrounds ===== */
+
+.bg-top{
+  background-image: url('images/slide-1.png') ;
+  background-size: cover;
+  min-height: 765px;
+}
+
+.friedman-bg{
+  height: 373px;
+  background-image: url("images/friedman.png");
+  background-size: cover;
+}
+
+.brewers-bg{
+  height: auto;
+  background-image: url("images/brewers-bg.png");
+  background-size: cover;
+}
+
+/* ===== Navigation ===== */
+
+  div .navbar-nav{
+    float: right;
+    font-family: Oswald;
+  }
+
+  li a{
+  font-size: 20px;
+  color: white;
+  }
+
+  ul li{
+    float: right;
+    padding: 0px 15px;
+  }
+
+  div .navbar-inverse{
+    background-color: inherit;
+    border-color: transparent;
+  }
+
+  div .navbar-inverse .navbar-nav>li>a{
+    color: white;
+  }
+
+/* ===== Header ===== */
+
+
+
+.large-logo-margin{
+  margin-top: 172px;
+  max-width: 100%;
+}
+
+
+/* ===== Footer ===== */
+
+.logo-left{
+    margin-right: 18px;
+}
+
+.logo-right{
+    margin-left: 18px;
+}
+
+/* ===== General ===== */
+
+.friedman-bg h2,
+.friedman-bg h4{
+  color: white;
+}
+
+#header h3{
+  margin-top: 50px;
+  font-family: "Josefin Sans";
+  color: white;
+}
+
+#contact-us span{
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+#contact-us h2{
+  color: white;
+}
+
+#our-beers .custom-hr{
+  margin-bottom: 70px;
+}
+
+#the-bar{
+      padding-bottom: 90px;
+}
+
+#the-brewers{
+      padding-bottom: 80px;
+}
+
+#our-beers{
+      padding-bottom: 100px;
+}
+
+a:focus, a:hover {
+    text-decoration: none !important;
+}
+
+.view-button{
+  margin-top: 60px;
+  font-weight: bold;
+  font-family: 'Oswald';
+  color: #4a473d;
+}
+
+.brewers-img{
+    margin-top: 30px;
+}
+
+.little-dov-fix img{
+  margin-top: 28px;
+}
+
+.little-dov-fix h5{
+  margin-top: 22px;
+}
+
+.col-md-offset-5 h2{
+    margin-top: 70px;
+}
+
+.col-md-offset-5 h4{
+    margin-top: 35px;
+    font-family: "Josefin Sans";
+}
+
+#contact-us{
+  margin-top: -9px;
+}
+
+.some-hei{
+  margin-top: 62px;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.arrow-down{
+  margin-top: 90px;
+  margin-bottom: 38px;
+}
+
+.btn {
+    font-weight: 400;
+    border-radius: 0;
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff !important;
+    border-radius: 100%!important;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 100%!important;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.logo-small{
+  width: 172px;
+  height: 44px;
+}
+
+.button{
+  margin: 0 auto;
+  height: 74px;
+  width: 256px;
+  padding: 23px;
+  background: #d3981d;
+  font-weight: bold;
+  color: white;
+  margin-top: 30px;
+  font-size: 24px;
+  font-family: 'Oswald';
+}
+
+.button:hover{
+  background: #966a0e;
+}
+
+.container-padding{
+  padding: 60px 0px 59px 0px;
+}
+
+.full-width{
+  width: 100%;
+}
+
+.custom-hr{
+  margin-top: 32px;
+  width: 145px;
+  border: 2px solid #d3981d;
+}
+
+.contact-bg{
+  background-color: #373737;
+}
+
+#the-brewers .button{
+  margin-top: 53px;
+  padding-top: 24px;
+}
+
+#the-brewers h5:nth-child(n+2) {
+  margin-top: 32px;
+}
+
+#the-brewers h5:first-child {
+  margin-top: 0px;
+}
+
+.brewers-title{
+    margin-bottom: 40px;
+}
+
+
+
+/* ===== Responsive ===== */
+
+/* CSS below works when below specified pixels*/
+@media (max-width: 1200px){
+  #the-brewers h5:nth-child(n+2) {
+      margin-top: 0px;
+  }
+}
+
+
+
+
+
+@media (max-width: 991px){
+
+  .brewers-img {
+    margin-top: 0px;
+  }
+  .center-responsive{
+    text-align: center;
+  }
+  /*.col-md-offset-5{
+    padding-left: 10px
+  }*/
+}
+
+@media (max-width: 767px){
+  .col-md-offset-5{
+    padding-left: 15px;
+  }
+
+}
